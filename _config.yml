@@ -1,45 +1,22 @@
 
 # html lang
-language: en
+language: ja
 
 # main menu navigation
 menu:
-  Home: index.html
-  Archives: archives
-  Tags: tags
-  Categories: categories
+  Home: /
   About: about
-  Github: https://github.com/stiekel/hexo-theme-random
+  Slides: slides
+#  Archives: archives
 
 social:
-  GitHub: https://github.com/stiekel/hexo-theme-random
-  Coding.NET: https://coding.net/u/Stiekel
-  Twitter: https://twitter.com/SidCN
-  Weibo: http://weibo.com/sidcn
-  DouBan: http://www.douban.com/people/Stiekel/
+  GitHub: https://github.com/y-takashina
+  Twitter: https://twitter.com/takashinayuya
+#  Facebook: https://www.facebook.com/yuya.takashina.3
+  LinkedIn: https://www.linkedin.com/in/yuya-takashina-a18864135/
 
 # Google analytics
 google_analytics:
-# Baidu tongji
-baidu_analytics:
-# Duoshuo
-duoshuo_shortname:
-# Disqus
-disqus_shortname:
-# Uyan
-uyan_id:
-# jiaThis id
-# if you want to change the style of jiaThis, please go to chage the following file:
-# theme/random/layouts/includes/jiathis.swig
-jiaThis_uid: 
-jiathisConfig:
-  data_track_clickback: true
-  summary: ""
-  showClose: true
-  shortUrl: false
-  hideMore: false
-
-
 
 # Miscelaneous
 favicon: /favicon.ico
@@ -83,25 +60,21 @@ turnoffBackgroundImage:
 backgroundColor: 34495E
  
 backgroundImages:
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_1.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_2.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_3.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_4.jpg?imageView2/1/w/__width__/h/__height__
-# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_5.jpg?imageView2/1/w/__width__/h/__height__
+- /bg.jpg
 
 vegasConfig:
   # more about config http://vegas.jaysalvat.com/documentation/settings/
   # animation: 'random'
   # transition: 'swirlRight'
-  preload­Image: true
+  preload-Image: true
   transition:
-    - slideLeft2
-    - slideRight2
+    # - slideLeft2
+    # - slideRight2
     # - zoomIn
     # - swirLeft
     # - swirRight
     # - flash
-    - flash2
+    # - flash2
   timer: true
   delay: 5000
   shuffle: true
@@ -113,10 +86,8 @@ unsplashConfig:
   gravity: 'north' # north, east, south, west, center
   # greyscale: true
 
-avatar: http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg
-
 # do not like fancybox, set this as false, this will turn it off
 fancybox: true
 
 # set the visibility of hide button in left bottom.
-hideButtonVisibility: true
+hideButtonVisibility: false
